@@ -1,0 +1,105 @@
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.stickyHeader {
+    position: sticky;
+    top: 0;
+    background: white;
+    padding: 10px 0;
+}
+
+.edit {
+    label {
+        margin: 8px;
+        width: 100%;
+        text-align: left;
+        display: block;
+        /* display: flex;
+        justify-content: space-between; */
+        span {
+            width: 180px;
+            margin-left: 4px;
+            font-weight: 700;
+            /* text-align: left; */
+        }
+        input, textarea {
+            border: 1px solid gray;
+            border-radius: 2px;
+            width: 92%;
+            margin: 4px;
+            height: 20px;
+        }
+        textarea {
+            white-space: pre;
+            height: 60px;
+            resize: none;
+        }
+
+    }
+}
+
+.editCard {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    button {
+        margin-bottom: 10px;
+    }
+    margin-bottom: 10px;
+}
+
+.sectionHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button {
+        padding: 0;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        width: 40px;
+        padding-bottom: 4px;
+        padding-left: 1px;
+        margin-left: 10px;
+        border: 1px solid lightgray;
+    }
+}
+
+.toggle {
+    label {
+        display: inline-block;
+        width: 60px;
+        height: 40px;
+        font-size: 20px;
+        font-weight: bold;
+        padding-top: 6px;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        background-color: #f9f9f9;
+        cursor: pointer;
+        transition: border-color 0.25s;
+    }
+    label:hover {
+      border-color: #646cff;
+    }
+    label:focus,
+    label:focus-visible {
+      outline: 4px auto -webkit-focus-ring-color;
+    }
+    input {
+        display: none;
+    }
+    input:checked+label{
+        background-color: gray;
+        color: white;
+    }
+}
+
+.editor {
+    max-width: 600px;
+    margin: 0 auto;
+}

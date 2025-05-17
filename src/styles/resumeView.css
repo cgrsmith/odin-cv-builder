@@ -1,0 +1,69 @@
+
+
+.viewer {
+    font-family: 'Times New Roman', Times, serif;
+    width: 210mm;
+    height: 297mm;
+    margin: 10px auto;
+    border: 1px solid black;
+
+}
+
+.viewPage {
+    margin: 0 50px;
+}
+
+.personalInfo {
+    text-align: center;
+
+    .personalName {
+        font-weight: bold;
+        font-size: 18px;
+        margin-top: 20mm;
+        margin-bottom: 10px;
+    }
+    .personalDetail {
+        font-size: 16px;
+    }
+    .personalObjective {
+        text-align: left;
+        line-height: 16px;
+    }
+}
+
+
+.viewHeader {
+    text-align: left;
+    h3 {
+        margin-bottom: 4px;
+        text-transform: uppercase;
+    }
+    hr {
+        margin: 0;
+    }
+}
+
+.viewSection {
+    text-align: left;
+    margin-top: 12px;
+
+    p{
+        margin: 0;
+    }
+
+    .viewSectionDivider {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .viewSectionRight {
+        text-align: right;
+    }
+
+    .title {
+        font-weight: bold;
+    }
+    .subtitle {
+        font-style: italic;
+    }
+}
